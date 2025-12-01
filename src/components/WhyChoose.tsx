@@ -122,8 +122,8 @@ export function WhyChoose() {
               </p>
               <div className="flex items-center justify-center space-x-4 text-[#FFD700]">
                 <div className="text-center">
-                  <div className="text-4xl font-bold">3X</div>
-                  <div className="text-sm text-gray-400">Longer Life</div>
+                  <div className="text-4xl font-bold">2X</div>
+                  <div className="text-sm text-gray-400">Longer Life than ordinary local batteries </div>
                 </div>
                 <div className="w-px h-12 bg-[#FFD700]/30"></div>
                 <div className="text-center">

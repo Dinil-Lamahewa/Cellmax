@@ -15,7 +15,7 @@ export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
   // Initial 3 images - you can easily add more to this array
   const images: GalleryImage[] = [{
-    url: "/WhatsApp_Image_2025-11-29_at_22.56.06_247c653e.jpg",
+    url: "WhatsApp_Image_2025-11-29_at_22.56.06_247c653e.jpg",
     title: 'Cellmax Power in Action',
     category: 'Product'
   }, {

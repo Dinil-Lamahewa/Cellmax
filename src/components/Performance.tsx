@@ -10,9 +10,9 @@ export function Performance() {
   const features = [{
     icon: Battery,
     title: 'Long-Lasting Reliability',
-    description: 'Extended battery life with consistent performance over time',
-    stat: '3X',
-    statLabel: 'Longer Life'
+    description: 'Extended battery life with consistent performance over time',
+    stat: '2X',
+    statLabel: 'Longer Life than ordinary local batteries'
   }, {
     icon: Activity,
     title: 'Stable Start Power',
