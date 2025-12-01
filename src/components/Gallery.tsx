@@ -26,6 +26,18 @@ export function Gallery() {
     url: 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=800&q=80',
     title: 'Ready for Adventure',
     category: 'Lifestyle'
+  }, {
+    url: 'WhatsApp_Image_2025-11-29_at_22.54.10_80bf059c.jpg',
+    title: 'Performance Testing',
+    category: 'Technology'
+  }, {
+    url: 'WhatsApp_Image_2025-11-29_at_22.54.28_8b2d5f69.jpg',
+    title: 'Performance Testing',
+    category: 'Technology'
+  }, {
+    url: 'WhatsApp Image 2025-11-29 at 22.54.11_1365e1a2.jpg',
+    title: 'Performance Testing',
+    category: 'Technology'
   }
   // Add more images here - the layout will automatically adapt
   ];
