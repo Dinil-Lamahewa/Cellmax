@@ -76,8 +76,10 @@ export function Footer() {
                 <span>info@cellmax.com</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
-                <Phone className="w-5 h-5 text-[#FFD700]" />
-                <span>+82 123 456 7890</span>
+                <a href="tel:+94779163548" className="flex items-center space-x-3">
+                  <Phone className="w-5 h-5 text-[#FFD700]" />
+                  <span>+94 77 916 3548</span>
+                </a>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <MapPin className="w-5 h-5 text-[#FFD700]" />
