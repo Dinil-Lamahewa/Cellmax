@@ -68,7 +68,7 @@ export function Hero() {
       }} className="flex flex-col md:flex-row items-center justify-center gap-4 mb-12">
           <div className="text-xl text-gray-300">JIS STANDARD.</div>
           <div className="hidden md:block w-1 h-6 bg-[#FFD700]"></div>
-          <div className="text-xl text-gray-300">DESIGN IN JAPAN.</div>
+          <div className="text-xl text-gray-300">DESIGN IN JAPAN & MADE IN KOREA.</div>
         </motion.div>
 
         <motion.div initial={{
