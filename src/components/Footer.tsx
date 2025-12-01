@@ -3,11 +3,11 @@ import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin } from 'lucide-react';
 export function Footer() {
   return <footer id="contact" className="bg-[#0a0e1a] border-t border-[#FFD700]/20 py-12">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
-          {/* Brand */}
-          <div>
-            <motion.div initial={{
+    <div className="max-w-7xl mx-auto px-6">
+      <div className="grid md:grid-cols-3 gap-8 mb-8">
+        {/* Brand */}
+        <div>
+          <motion.div initial={{
             opacity: 0,
             y: 20
           }} whileInView={{
@@ -18,19 +18,19 @@ export function Footer() {
           }} viewport={{
             once: true
           }}>
-              <h3 className="text-3xl font-bold text-[#FFD700] mb-4">
-                CELLMAX
-              </h3>
-              <p className="text-gray-400 leading-relaxed">
-                Premium Korean motorcycle batteries engineered for performance,
-                reliability, and longevity.
-              </p>
-            </motion.div>
-          </div>
+            <h3 className="text-3xl font-bold text-[#FFD700] mb-4">
+              CELLMAX
+            </h3>
+            <p className="text-gray-400 leading-relaxed">
+              Premium Korean motorcycle batteries engineered for performance,
+              reliability, and longevity.
+            </p>
+          </motion.div>
+        </div>
 
-          {/* Quick Links */}
-          <div>
-            <motion.div initial={{
+        {/* Quick Links */}
+        <div>
+          <motion.div initial={{
             opacity: 0,
             y: 20
           }} whileInView={{
@@ -42,22 +42,22 @@ export function Footer() {
           }} viewport={{
             once: true
           }}>
-              <h4 className="text-xl font-bold text-white mb-4">Quick Links</h4>
-              <ul className="space-y-2">
-                {['About', 'Technology', 'Performance', 'Products'].map(item => <li key={item}>
-                      <button onClick={() => document.getElementById(item.toLowerCase())?.scrollIntoView({
+            <h4 className="text-xl font-bold text-white mb-4">Quick Links</h4>
+            <ul className="space-y-2">
+              {['About', 'Technology', 'Performance', 'Products'].map(item => <li key={item}>
+                <button onClick={() => document.getElementById(item.toLowerCase())?.scrollIntoView({
                   behavior: 'smooth'
                 })} className="text-gray-400 hover:text-[#FFD700] transition-colors duration-300">
-                        {item}
-                      </button>
-                    </li>)}
-              </ul>
-            </motion.div>
-          </div>
+                  {item}
+                </button>
+              </li>)}
+            </ul>
+          </motion.div>
+        </div>
 
-          {/* Contact */}
-          <div>
-            <motion.div initial={{
+        {/* Contact */}
+        <div>
+          <motion.div initial={{
             opacity: 0,
             y: 20
           }} whileInView={{
@@ -69,27 +69,27 @@ export function Footer() {
           }} viewport={{
             once: true
           }}>
-              <h4 className="text-xl font-bold text-white mb-4">Contact</h4>
-              <ul className="space-y-3">
-                <li className="flex items-center space-x-3 text-gray-400">
-                  <Mail className="w-5 h-5 text-[#FFD700]" />
-                  <span>info@cellmax.com</span>
-                </li>
-                <li className="flex items-center space-x-3 text-gray-400">
-                  <Phone className="w-5 h-5 text-[#FFD700]" />
-                  <span>+82 123 456 7890</span>
-                </li>
-                <li className="flex items-center space-x-3 text-gray-400">
-                  <MapPin className="w-5 h-5 text-[#FFD700]" />
-                  <span>Seoul, South Korea</span>
-                </li>
-              </ul>
-            </motion.div>
-          </div>
+            <h4 className="text-xl font-bold text-white mb-4">Contact</h4>
+            <ul className="space-y-3">
+              <li className="flex items-center space-x-3 text-gray-400">
+                <Mail className="w-5 h-5 text-[#FFD700]" />
+                <span>info@cellmax.com</span>
+              </li>
+              <li className="flex items-center space-x-3 text-gray-400">
+                <Phone className="w-5 h-5 text-[#FFD700]" />
+                <span>+82 123 456 7890</span>
+              </li>
+              <li className="flex items-center space-x-3 text-gray-400">
+                <MapPin className="w-5 h-5 text-[#FFD700]" />
+                <span>Seoul, South Korea</span>
+              </li>
+            </ul>
+          </motion.div>
         </div>
+      </div>
 
-        {/* Bottom bar */}
-        <motion.div initial={{
+      {/* Bottom bar */}
+      <motion.div initial={{
         opacity: 0
       }} whileInView={{
         opacity: 1
@@ -99,11 +99,19 @@ export function Footer() {
       }} viewport={{
         once: true
       }} className="border-t border-[#FFD700]/10 pt-8 text-center">
-          <p className="text-gray-400">
-            © 2024 Cellmax Battery. All rights reserved. | JIS Standard |
-            International Warranty
-          </p>
-        </motion.div>
-      </div>
-    </footer>;
+        <p className="text-gray-400">
+          <a
+            href="https://www.linkedin.com/company/uthrix"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-300"
+          >
+            © 2024 UthriX Pvt. Ltd
+          </a>
+          . All rights reserved. | JIS Standard | International Warranty
+        </p>
+
+      </motion.div>
+    </div>
+  </footer>;
 }
