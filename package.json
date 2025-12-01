@@ -3,14 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "npx vite",
-    "build": "npx vite build",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "preview": "npx vite preview",
-    "predeploy": "npx run build",
-    "deploy": "gh-pages -d dist"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+,
   "dependencies": {
     "framer-motion": "^11.5.4",
     "lucide-react": "0.522.0",
