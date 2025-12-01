@@ -72,8 +72,10 @@ export function Footer() {
             <h4 className="text-xl font-bold text-white mb-4">Contact</h4>
             <ul className="space-y-3">
               <li className="flex items-center space-x-3 text-gray-400">
-                <Mail className="w-5 h-5 text-[#FFD700]" />
-                <span>info@cellmax.com</span>
+                <a href="mailto:info@cellmax.com" className="flex items-center space-x-3">
+                  <Mail className="w-5 h-5 text-[#FFD700]" />
+                  <span>info@cellmax.com</span>
+                </a>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <a href="tel:+94779163548" className="flex items-center space-x-3">
@@ -82,8 +84,15 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
-                <MapPin className="w-5 h-5 text-[#FFD700]" />
-                <span>Seoul, South Korea</span>
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=Seoul+South+Korea"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-3"
+                >
+                  <MapPin className="w-5 h-5 text-[#FFD700]" />
+                  <span>Seoul, South Korea</span>
+                </a>
               </li>
             </ul>
           </motion.div>
