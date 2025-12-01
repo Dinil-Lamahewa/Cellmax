@@ -27,17 +27,17 @@ export function Gallery() {
     title: 'Ready for Adventure',
     category: 'Lifestyle'
   }, {
-    url: 'WhatsApp_Image_2025-11-29_at_22.54.10_80bf059c.jpg',
-    title: 'Performance Testing',
-    category: 'Technology'
-  }, {
-    url: 'WhatsApp_Image_2025-11-29_at_22.54.28_8b2d5f69.jpg',
-    title: 'Performance Testing',
-    category: 'Technology'
+    url: 'WhatsApp Image 2025-11-29 at 22.54.10_80bf059c.jpg',
+    title: '',
+    category: ''
   }, {
     url: 'WhatsApp Image 2025-11-29 at 22.54.11_1365e1a2.jpg',
-    title: 'Performance Testing',
-    category: 'Technology'
+    title: '',
+    category: ''
+  }, {
+    url: 'WhatsApp Image 2025-11-29 at 22.54.28_8b2d5f69.jpg',
+    title: '',
+    category: ''
   }
   // Add more images here - the layout will automatically adapt
   ];
@@ -127,7 +127,7 @@ export function Gallery() {
           <div className="inline-block bg-[#1a1f2e] border border-[#FFD700]/30 rounded-full px-8 py-4">
             <p className="text-gray-300">
               <span className="text-[#FFD700] font-bold">{images.length}</span>{' '}
-              images • More coming soon
+              images
             </p>
           </div>
         </motion.div>
