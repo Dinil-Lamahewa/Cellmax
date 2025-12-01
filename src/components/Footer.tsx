@@ -106,7 +106,7 @@ export function Footer() {
             rel="noopener noreferrer"
             className="underline hover:text-gray-300"
           >
-            © 2024 UthriX Pvt. Ltd
+            © 2025 UthriX Pvt. Ltd
           </a>
           . All rights reserved. | JIS Standard | International Warranty
         </p>
